@@ -1,14 +1,8 @@
 # zxing
 实现扫一扫功能，包含闪光灯开关，选取本地图片解析，生成二维码(可带logo)功能等。
 
-扫描二维码下载APK体验一下
-========
-![扫描二维码](https://github.com/WeiLanXingchen/zxing-master/blob/master/img/downloadApk.png "扫描下载APK")
-
-
 首先来看看效果图
 ========
-
 
 下图分别为 扫描二维码，扫描条码，闪光灯，解析二维码图片，解析条码图片，生成二维码,修改扫描框四个角的颜色，修改扫描框边线颜色
 ------------------------
@@ -42,7 +36,6 @@ allprojects {
 
 然后在 build.gradle(Module:app) 的 dependencies 添加:
 
-最新版本：https://github.com/yuzhiqiang1993/zxing/releases
 
  ```
  dependencies {
